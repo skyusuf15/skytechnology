@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<title>SkyTechnology - Web Developer</title>
+  
+<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Language" content="en" />
+<meta name="robots" content="All" />
+<meta name="description" content="SkyTechnology - Web Developer" />
+<meta name="Keywords" content="javascript" />
+<meta name="Owner" content="SkyTechnology" />  
+<meta name="Author" content="SkyTechnology" />  
+<meta name="Copyright" content="SkyTechnology" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,700' rel='stylesheet' type='text/css'>
+  
+<!--contact-form-->
+<link rel="stylesheet" href="css/contact-form_3.css">
+<!--link rel="stylesheet" href="css/border.css">
+<link rel="stylesheet" href="css/animate.css"-->
+
+</head>
+
+<body>
+
+<div class="contact-cont">
+
+    <form action="contact-form/contact.php" method="post" class="ajax-form">
+		<div class="relative"><div class="box-inner">
+         	<input type="text" class="name" name="name" placeholder="Name"></div></div>
+		<div class="relative float_email"><div class="box-inner">
+        	<input type="text" class="email btnBefore btnAfter" name="email" placeholder="E-mail"></div></div>
+        <div class="relative_msg"><div class="box-inner">
+        	<textarea name="message" class="message" placeholder="Message"></textarea></div></div>
+        <div class="form-btn">
+            <input type="submit" class="submit" value="SEND">
+        </div>
+
+       <div class="relative form-thank-you">
+         <h3>Thank you for contacting me!</h3>
+         <p>I'll be in touch with you shortly</p>
+       </div>  
+    </form>
+    
+</div>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="js/jquery.validate.min.js" defer></script>
+<script src="js/index-contact.js" defer></script>
+</body>
+</html>
